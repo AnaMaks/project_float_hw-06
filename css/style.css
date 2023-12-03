@@ -1,0 +1,82 @@
+@import url("reset.css");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.float-container {
+  font-size: 0;
+  margin: 50px 0;
+}
+.blue {
+  background-color: aqua;
+}
+.child-blue {
+  font-size: 30px;
+	float: left;
+  width: 400px;
+  outline: 1px solid red;
+}
+.child-blue > div {
+  height: 400px;
+}
+.green {
+  background-color: greenyellow;
+}
+.float-green-first {
+  font-size: 30px;
+	float: left;
+  width: 800px;
+}
+.float-green-first > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.float-green-second {
+  font-size: 30px;
+	float: left;
+  width: 400px;
+  outline: 1px solid red;
+}
+.float-green-second > div {
+  height: 133.33px;
+  outline: 1px solid red;
+}
+.orange {
+  background-color: orange;
+}
+.orange-first {
+  font-size: 30px;
+	float: left;
+  width: 400px;
+}
+.orange-first > div {
+  height: 400px;
+  outline: 1px solid red;
+}
+.orange-second {
+  font-size: 30px;
+	float: left;
+  width: 800px;
+}
+.orange-second > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.orange-third > div {
+  float: left;
+  width: 400px;
+  height: 200px;
+  outline: 1px solid red;
+}
+div.orange-third {
+  height: auto;
+  width: 800px;
+}
+.orange-fourth {
+  width: 400px;
+}
+.orange-fourth > div {
+  height: 100px;
+  outline: 1px solid red;
+}
